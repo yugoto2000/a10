@@ -43,9 +43,9 @@ void read_csv_and_set_vector(TString filename, std::vector<double> *a, std::vect
     n++; // 次の配列に移る
     j = 0;
     *a = a_tmp;
-    *b = a_tmp;
-    *c = a_tmp;
-    *d = a_tmp;
+    *b = b_tmp;
+    *c = c_tmp;
+    *d = d_tmp;
   }
 
   ifs.close();
